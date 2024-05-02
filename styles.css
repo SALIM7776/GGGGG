@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://64.media.tumblr.com/b6e58364898e5ac67a3ed7766d5052dc/tumblr_odeql2ZJEr1s39yzeo1_500.gifv'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.level-selection {
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to make content readable */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    margin-bottom: 20px;
+}
+
+.level-selection h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.level-options {
+    margin-bottom: 20px;
+}
+
+.level-options label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.level-options select {
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.game-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to make content readable */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    margin-bottom: 20px;
+}
+
+.game-container.hidden {
+    display: none;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px; /* Add some space between the game grid and other elements */
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
